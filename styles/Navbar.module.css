@@ -1,0 +1,65 @@
+#navbar {
+  width: 100%;
+  position: fixed;
+  font-family: "Dosis", sans-serif;
+  font-size: 15pt;
+  text-align: center;
+  background-color: var(--body-color);
+  z-index: 3;
+  box-shadow: 0px 1px 10px;
+}
+
+#navbarLeft {
+  float: left;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbarRight {
+  float: right;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 1px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20pt;
+}
+
+.navbarItem {
+  margin: 15px;
+}
+
+.navbarItem a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbarItem a:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background-color: var(--solid-grey);
+  width: 70px;
+  padding: 5px;
+  padding-top: 0px;
+  text-align: left;
+  border: 2px solid black;
+  border-top: 0px;
+  font-size: 14pt;
+}
+
+#navbar #data .dropdown {
+  width: 120px;
+}
+
+#navbar .is-active .dropdown {
+  left: 15px;
+}
