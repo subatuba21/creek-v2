@@ -1,0 +1,43 @@
+#footer {
+  background-color: #202020;
+  color: #cad6b3;
+  padding: 0em;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  font-size: 18pt;
+  font-family: "Dosis", sans-serif;
+}
+
+#footer > div {
+  text-align: center;
+  margin: 3rem;
+  padding: 0px;
+}
+
+#footer ul {
+  list-style-type: none;
+  padding: 0;
+  color: #cad6b3;
+  margin-top: 0px;
+}
+
+#footer h4 {
+    margin-bottom: 7px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#avwebMention {
+    position: relative;
+    bottom: 1.5px;
+    display: inline-block;
+}
+
+#avwebMention > h4 {
+    margin-bottom: 18px;
+}
